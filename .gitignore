@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+*.env
+*.virtualenv
+
+# Django stuff
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+
+# Local settings
+.env
+*.envrc
+settings_local.py
+config/settings/local.py
+
+# Media and static files
+/static/
+/media/
+
+# Ignore migrations cache (but keep actual migrations)
+*/__pycache__/
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# VSCode and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Django debug toolbar cache
+debug.log
+
+# Pip and dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Celery & Background tasks
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# MyPy
+.mypy_cache/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Docker
+docker-compose.override.yml
+
+# Node.js / frontend build files
+node_modules/
+*.map
+*.cache
+
+# Security
+secrets.json
+
+# Ignore compiled files
+*.egg-info/
+dist/
+build/
